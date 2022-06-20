@@ -1,8 +1,9 @@
-@import url("https://fonts.google.com/specimen/Outfit");
+@import url("https://fonts.google.com/specimen/Outfit#standard-styles");
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: outfit;
 }
 body {
     display: flex;
@@ -38,15 +39,18 @@ body {
     border-radius: 15px;
 }
 .f-p{
-    font-family: "Outfit";
+    font-family: outfit ;
     font-size: 15px;
     font-weight: 700;
     padding: 15px;
+    color: hsl(218, 44%, 22%);
+
 }
 .s-p{
-    font-family: 'Outfit';
+    font-family: outfit;
     font-size: 15px;
     font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
 @media screen and (min-width:375px) {
     .container{
